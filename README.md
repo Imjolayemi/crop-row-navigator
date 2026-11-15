@@ -22,5 +22,35 @@ an offset estimate and reproducible instructions.
 
 ## Current progress
 - Created a local Git repository with a main branch.
-- Opened the repository in VS Code.
+- Connected the repository to GitHub and pushed initial documentation.
+- Added and pushed .gitignore rules.
+- Created and verified a Python 3.14.0 virtual environment.
+- Created data/raw, src and results folders.
+- Documented local environment setup and project structure.
 - Dataset selection and implementation have not started.
+
+## Local setup
+
+Development started on Windows 11 using Python 3.14.0.
+
+From the repository folder, create a virtual environment:
+
+```powershell
+python -m venv .env
+```
+
+Activate it in PowerShell:
+
+```powershell
+.\.env\Scripts\Activate.ps1
+```
+
+The environment folder is excluded from Git.
+
+## Project structure
+
+- `data/raw/`: original input images; excluded from Git.
+- `src/`: Python source code.
+- `results/`: generated images and measurements.
+
+Empty folders are not tracked by Git.
