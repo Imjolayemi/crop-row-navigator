@@ -1,0 +1,19 @@
+# Local Python environments
+.venv/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded source data
+data/raw/
