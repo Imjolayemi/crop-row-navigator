@@ -45,6 +45,17 @@ Activate it in PowerShell:
 .\.env\Scripts\Activate.ps1
 ```
 
+Install the required packages:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+- OpenCV: image processing and drawing crop-row markings.
+- NumPy: calculations with image pixels and coordinates.
+
+Both packages were successfully imported in the project environment.
+
 The environment folder is excluded from Git.
 
 ## Project structure
